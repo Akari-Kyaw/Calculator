@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-dark">
+    <div
+        class="position-absolute top-50 start-50 translate-middle row border border-secondary border-opacity-40 rounded p-2 w-15">
+        <div class="p-1 col-11">
+            <input readonly class="form-control" id="input" onchange="input(event)">
+        </div>
+        <!-- <div class="p-1 col-2">
+            <button class="btn btn-secondary w-100" onclick="calculate()">=</button>
+        </div> -->
+        <div class="p-1 col-3">
+            <button class="btn btn-secondary w-100" onclick="BackSpace()"> <- </button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterOperator('%')">%</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100" onclick="Clear()" >CE</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterOperator('^2')">^2</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterOperator('^3')">^3</button>
+        </div>
+        <div class="col-3 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterNum('7')">7</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterNum('8')">8</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterNum('9')">9</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterOperator('/')">/</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterOperator('`2')">`2</button>
+        </div>
+        
+        <div class="col-3 p-1">
+            <button class="btn btn-secondary w-100"onclick="EnterNum('4')">4</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100"onclick="EnterNum('5')">5</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100"onclick="EnterNum('6')">6</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterOperator('*')">*</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterOperator('`3')">`3</button>
+        </div>
+        <div class="col-3 p-1">
+            <button class="btn btn-secondary w-100"onclick="EnterNum('1')">1</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100"onclick="EnterNum('2')">2</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterNum('3')">3</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100"onclick="EnterOperator('-')">-</button>
+        </div>
+        <div class="col-2 p-1">
+            <button class="btn btn-secondary w-100"onclick="EnterOperator('+')">+</button>
+        </div>
+        <div class="col-3 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterNum('0')">0</button>
+        </div>
+        
+        <div class="col-3 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterNum('.')">.</button>
+        </div>
+        <!-- <div class="col-3 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterOperator('`2')">`2</button>
+        </div>
+        <div class="col-3 p-1">
+            <button class="btn btn-secondary w-100" onclick="EnterOperator('`3')">`3</button>
+        </div> -->
+        <div class="col-5 p-1">
+            <button class="btn btn-secondary w-100" onclick="calculate()" >=</button>
+        </div>
+        
+        
+        
+    </div>
+</body>
+<script src="calculator.js">
+    
+</script>
+
+</html>
